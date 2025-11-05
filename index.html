@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Recursion Blockchain Analysis</title>
+  <link rel="stylesheet" href="styles.css" />
+  <meta name="description" content="Recursion Blockchain Analysis — dashboard template with animated background and hash validator." />
+</head>
+<body>
+  <!-- animated canvas background -->
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="app">
+    <header class="topbar">
+      <div class="brand">
+        <h1>Recursion</h1>
+        <small>Blockchain Analysis</small>
+      </div>
+      <nav class="right">
+        <div class="user">Guest</div>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- login / quick auth panel -->
+      <section class="auth">
+        <form id="login-form" autocomplete="off">
+          <h2>Sign In</h2>
+          <div class="fields">
+            <input id="username" placeholder="Username or email" required />
+            <input id="password" type="password" placeholder="Password" required />
+            <div class="row">
+              <label><input type="checkbox" id="remember"> Remember</label>
+              <button class="btn" type="submit">Sign In</button>
+            </div>
+          </div>
+          <small class="signature">Created by YOUR NAME</small>
+        </form>
+      </section>
+
+      <!-- Dashboard -->
+      <section class="dashboard" aria-live="polite">
+        <div class="stats">
+          <div class="stat-card">
+            <div class="value" id="totalActive">—</div>
+            <div class="label">Active Assets</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="marketCap">—</div>
+            <div class="label">Est. Market Cap</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="txs">—</div>
+            <div class="label">Recent TXs</div>
+          </div>
+          <div class="stat-card">
+            <div class="value" id="uptime">99.99%</div>
+            <div class="label">System Uptime</div>
+          </div>
+        </div>
+
+        <div class="cards" id="asset-cards">
+          <!-- cards injected by JS -->
+        </div>
+
+        <aside class="tools">
+          <div class="tool">
+            <h3>Hash Validator</h3>
+            <input id="hash-input" placeholder="Paste hash (sha256 / hex 64 chars)" />
+            <button id="validate-btn" class="btn">Validate</button>
+            <div id="hash-result" class="result neutral">Awaiting input</div>
+          </div>
+
+          <div class="tool">
+            <h3>Live Log</h3>
+            <div id="live-log" class="log"></div>
+          </div>
+        </aside>
+      </section>
+
+      <footer class="footer">
+        <div>Recursion Blockchain Analysis • 2025</div>
+        <div class="credits">Made with ♥ by YOUR NAME</div>
+      </footer>
+    </main>
+  </div>
+
+  <script src="app.js" defer></script>
+</body>
+</html>
