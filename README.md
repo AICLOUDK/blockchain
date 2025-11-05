@@ -1,5 +1,5 @@
 # Recursion Blockchain Analysis (Static Prototype)
-https://vercel.com/kamyab-s-projects/blockchain-wvwp/2jsAxL1qksHadzfahoogfQmTpN7s
+[https://vercel.com/kamyab-s-projects/blockchain-wvwp/2jsAxL1qksHadzfahoogfQmTpN7s](https://blockchain-wvwp-2w85eicn3-kamyab-s-projects.vercel.app/)
 
 A static, responsive dashboard prototype with animated background, 6 sample asset cards, live stats simulation, and a hash validator.
 
