@@ -1,7 +1,5 @@
 # Recursion Blockchain Analysis (Static Prototype)
-1. https://blockchain-git-main-kamyab-s-projects.vercel.app?_vercel_share=EGWWTIxVSk5qZvQNHzakNJHLGQRbTuIG
-
-2. https://blockchainrecursion.figma.site/
+web: https://blockchain-git-main-kamyab-s-projects.vercel.app?_vercel_share=EGWWTIxVSk5qZvQNHzakNJHLGQRbTuIG
 
 A static, responsive dashboard prototype with animated background, 6 sample asset cards, live stats simulation, and a hash validator.
 
